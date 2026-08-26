@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <circle cx="100" cy="100" r="96" fill="#F7ECD9" stroke="#2E1B12" stroke-width="4"/>
+  <circle cx="100" cy="100" r="84" fill="none" stroke="#C97D30" stroke-width="2"/>
+  <!-- Steam -->
+  <path d="M78 55 C 72 45, 84 40, 80 30 C 76 22, 84 16, 82 8" fill="none" stroke="#7C8B5D" stroke-width="4" stroke-linecap="round"/>
+  <path d="M100 55 C 94 45, 106 40, 102 30 C 98 22, 106 16, 104 8" fill="none" stroke="#7C8B5D" stroke-width="4" stroke-linecap="round"/>
+  <path d="M122 55 C 116 45, 128 40, 124 30 C 120 22, 128 16, 126 8" fill="none" stroke="#7C8B5D" stroke-width="4" stroke-linecap="round"/>
+  <!-- Cup -->
+  <path d="M62 78 H140 L134 138 C132 152, 120 162, 106 162 H96 C82 162, 70 152, 68 138 Z" fill="#2E1B12"/>
+  <path d="M68 90 H134" stroke="#F7ECD9" stroke-width="3" opacity="0.4"/>
+  <!-- Handle -->
+  <path d="M140 92 C 160 92, 160 122, 140 122" fill="none" stroke="#2E1B12" stroke-width="8" stroke-linecap="round"/>
+  <!-- Saucer -->
+  <ellipse cx="100" cy="164" rx="46" ry="7" fill="#C97D30"/>
+</svg>
