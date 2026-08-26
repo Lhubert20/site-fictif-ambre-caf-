@@ -1,0 +1,36 @@
+:root{
+    --principal-color: #f7ecd9;
+    --primary-color: #2e1b12;
+    /*couleur entete pied de page texte*/
+    --header-color: #c97d30;
+    /*couleur lien logo*/
+    --logo-color: #7c8b5d;
+    /*icon au survol*/
+    --survol-icon-color: #7C8B5D;
+    --couleur-carte: #FFFDF8;
+}
+body{margin: 0;}
+body{
+    background-color: var(--principal-color);
+    color: var(--primary-color);
+}
+h1, header, footer{
+    color: var(--header-color);
+    background-color: var(--principal-color);
+}
+a, img{
+    color: var(--header-color);
+     text-decoration:none;
+}
+.button{
+   border:1px solid var(--header-color);
+   border-radius:5px;
+   display:inline-block;
+   padding:5px 10px;
+   margin: 5px
+   
+}
+
+.cafe, .grignoter{
+    background-color: var(--couleur-carte);
+}
