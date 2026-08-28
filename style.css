@@ -9,19 +9,139 @@
     --survol-icon-color: #7C8B5D;
     --couleur-carte: #FFFDF8;
 }
+/* police */
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
 body{margin: 0;}
 body{
     background-color: var(--principal-color);
     color: var(--primary-color);
+    font-family: poppins, sans-serif;
+}
+h1,h2{
+    text-align:center;
 }
 h1, header, footer{
     color: var(--header-color);
     background-color: var(--principal-color);
 }
+article{
+    padding: 20px;
+    text-align: center;
+    background-color:var(--couleur-carte);
+    margin: 20px;
+}
 a, img{
     color: var(--header-color);
      text-decoration:none;
 }
+
 .button{
    border:1px solid var(--header-color);
    border-radius:5px;
@@ -30,7 +150,27 @@ a, img{
    margin: 5px
    
 }
+.button:hover{
+    background-color: var(--survol-icon-color);
+    color: var(--principal-color);
+}
+.nos-valeur{
+    background-color: var(--couleur-carte);
+    padding: 20px;
+    margin: 20px;
+    
+}
+table, th, td{
+  border:1px solid var(--primary-color);
+  border-collapse: collapse;
+ text-align:center;
+}
+
 
 .cafe, .grignoter{
     background-color: var(--couleur-carte);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
 }
