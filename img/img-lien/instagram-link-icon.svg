@@ -1,0 +1,17 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Instagram icon</title>
+  <desc id="desc">Instagram-style gradient camera icon for a portfolio footer link.</desc>
+  <defs>
+    <radialGradient id="instagramGradient" cx="32%" cy="108%" r="115%">
+      <stop offset="0%" stop-color="#FEDA75"/>
+      <stop offset="26%" stop-color="#FA7E1E"/>
+      <stop offset="52%" stop-color="#D62976"/>
+      <stop offset="78%" stop-color="#962FBF"/>
+      <stop offset="100%" stop-color="#4F5BD5"/>
+    </radialGradient>
+  </defs>
+  <rect x="8" y="8" width="496" height="496" rx="112" fill="url(#instagramGradient)"/>
+  <rect x="142" y="142" width="228" height="228" rx="66" fill="none" stroke="#FFFFFF" stroke-width="34"/>
+  <circle cx="256" cy="256" r="56" fill="none" stroke="#FFFFFF" stroke-width="34"/>
+  <circle cx="333" cy="179" r="22" fill="#FFFFFF"/>
+</svg>
