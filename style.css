@@ -1,190 +1,323 @@
 :root{
-    --principal-color: #f7ecd9;
-    --primary-color: #2e1b12;
-    /*couleur entete pied de page texte*/
-    --header-color: #c97d30;
-    /*couleur lien logo*/
-    --logo-color: #7c8b5d;
-    /*icon au survol*/
+    --principal-color: #F7ECD9;
+    --primary-color: #2E1B12;
+    --header-color: #C97D30;
+    --logo-color: #7C8B5D;
     --survol-icon-color: #7C8B5D;
     --couleur-carte: #FFFDF8;
 }
-/* police */
-.poppins-thin {
-  font-family: "Poppins", sans-serif;
-  font-weight: 100;
-  font-style: normal;
-}
 
-.poppins-extralight {
-  font-family: "Poppins", sans-serif;
-  font-weight: 200;
-  font-style: normal;
-}
-
-.poppins-light {
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.poppins-regular {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.poppins-medium {
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-}
-
-.poppins-semibold {
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-style: normal;
-}
-
-.poppins-bold {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.poppins-extrabold {
-  font-family: "Poppins", sans-serif;
-  font-weight: 800;
-  font-style: normal;
-}
-
-.poppins-black {
-  font-family: "Poppins", sans-serif;
-  font-weight: 900;
-  font-style: normal;
-}
-
-.poppins-thin-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 100;
-  font-style: italic;
-}
-
-.poppins-extralight-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 200;
-  font-style: italic;
-}
-
-.poppins-light-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-style: italic;
-}
-
-.poppins-regular-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.poppins-medium-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-style: italic;
-}
-
-.poppins-semibold-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-style: italic;
-}
-
-.poppins-bold-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: italic;
-}
-
-.poppins-extrabold-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 800;
-  font-style: italic;
-}
-
-.poppins-black-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 900;
-  font-style: italic;
-}
-
-body{margin: 0;}
 body{
+    margin: 0;
     background-color: var(--principal-color);
     color: var(--primary-color);
-    font-family: poppins, sans-serif;
+    font-family: Poppins, Arial, sans-serif;
 }
-h1,h2{
-    text-align:center;
-}
-h1, header, footer{
-    color: var(--header-color);
+
+header,
+footer{
     background-color: var(--principal-color);
-}
-article{
-    padding: 20px;
-    text-align: center;
-    background-color:var(--couleur-carte);
-    margin: 20px;
-}
-a, img{
     color: var(--header-color);
-     text-decoration:none;
-}
-.contact{
-  align-items:center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.horaire, .contact{
-  margin:22px 300px;
-  border-radius: 10px;
-  padding: 20px;
-  border:1px solid var(--header-color);
-  text-align: center;
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-}
-.reseaux-sociaux{
-  
-}
-.button{
-   border:1px solid var(--header-color);
-   border-radius:5px;
-   display:inline-block;
-   padding:5px 10px;
-   margin: 5px
+    text-align: center;
 }
 
-.nos-valeur{
-    background-color: var(--couleur-carte);
+header{
+    padding: 34px 20px 42px;
+}
+
+header img{
+    max-width: 430px;
+    width: 88%;
+}
+
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    margin: 24px 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav a{
+    display: inline-block;
+    padding: 8px 14px;
+    border: 1px solid rgba(201, 125, 48, 0.35);
+    border-radius: 999px;
+    background-color: rgba(255, 253, 248, 0.72);
+    font-weight: 700;
+}
+
+nav a:hover{
+    background-color: var(--header-color);
+    color: var(--couleur-carte);
+}
+
+h1,
+h2{
+    text-align: center;
+}
+
+h1{
+    margin: 28px 0 12px;
+    font-size: clamp(2rem, 5vw, 3.5rem);
+}
+
+h2{
+    color: var(--header-color);
+}
+
+a{
+    color: var(--header-color);
+    text-decoration: none;
+}
+
+main{
+    max-width: 1100px;
+    margin: 0 auto;
     padding: 20px;
-    margin: 20px;
-    
-}
-table, th, td{
-  border:1px solid var(--primary-color);
-  border-collapse: collapse;
- text-align:center;
 }
 
-
-.cafe, .grignoter{
+article,
+.nos-valeur,
+.specialites,
+.contact,
+.horaire,
+.cafe,
+.grignoter{
+    margin: 24px 0;
+    padding: 24px;
+    border-radius: 12px;
     background-color: var(--couleur-carte);
-    display:flex;
+    box-shadow: 0 10px 24px rgba(46, 27, 18, 0.08);
+}
+
+article{
+    text-align: center;
+}
+
+.hero{
+    max-width: 780px;
+    margin: 16px auto 0;
+}
+
+.hero p{
+    max-width: 700px;
+    margin: 10px auto;
+    line-height: 1.7;
+}
+
+.slogan{
+    color: var(--header-color);
+    font-size: clamp(1.15rem, 3vw, 1.7rem);
+    font-weight: 500;
+}
+
+.accroche{
+    color: var(--primary-color);
+    font-size: 1.15rem;
+    font-weight: 700;
+}
+
+.button{
+    display: inline-block;
+    margin-top: 18px;
+    padding: 10px 18px;
+    border: 1px solid var(--header-color);
+    border-radius: 6px;
+    background-color: var(--header-color);
+}
+
+.button a{
+    color: var(--couleur-carte);
+    font-weight: 700;
+}
+
+.button:hover{
+    background-color: var(--logo-color);
+    border-color: var(--logo-color);
+}
+
+.a-propos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.specialites{
+    text-align: center;
+}
+
+.cartes-specialites{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+    margin-top: 22px;
+}
+
+.cartes-specialites article{
+    margin: 0;
+    padding: 0 0 20px;
+    overflow: hidden;
+}
+
+.cartes-specialites img{
+    display: block;
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+}
+
+.cartes-specialites h3{
+    margin: 18px 18px 8px;
+    color: var(--header-color);
+}
+
+.cartes-specialites p{
+    margin: 0 18px;
+    line-height: 1.6;
+}
+
+.nos-valeur ul{
+    max-width: 850px;
+    margin: 0 auto;
+    line-height: 1.7;
+}
+
+.nos-valeur li{
+    margin-bottom: 12px;
+}
+
+.contact,
+.horaire{
+    text-align: center;
+}
+
+.contact a{
+    font-weight: 700;
+}
+
+.reseaux-sociaux{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.reseaux-sociaux img{
+    transition: transform 0.2s ease;
+}
+
+.reseaux-sociaux img:hover{
+    transform: scale(1.08);
+}
+
+table{
+    width: min(900px, 100%);
+    border-collapse: collapse;
+    background-color: var(--couleur-carte);
+}
+
+th,
+td{
+    padding: 12px;
+    border: 1px solid var(--primary-color);
+    text-align: center;
+}
+
+th{
+    background-color: var(--header-color);
+    color: var(--couleur-carte);
+}
+
+.cafe,
+.grignoter{
+    display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.page-carte{
+    max-width: 900px;
+}
+
+.page-carte .cafe,
+.page-carte .grignoter{
+    align-items: stretch;
+}
+
+.menu-item{
+    display: flex;
+    justify-content: space-between;
+    gap: 22px;
+    margin: 0;
+    padding: 18px 0;
+    border-radius: 0;
+    border-bottom: 1px solid rgba(46, 27, 18, 0.16);
+    background: transparent;
+    box-shadow: none;
+    text-align: left;
+}
+
+.menu-item:last-child{
+    border-bottom: none;
+}
+
+.menu-item h3{
+    margin: 0;
+    color: var(--header-color);
+}
+
+.menu-item p{
+    margin: 6px 0 0;
+    line-height: 1.5;
+}
+
+.menu-item strong{
+    color: var(--primary-color);
+    white-space: nowrap;
+}
+
+footer{
     padding: 20px;
+}
+
+@media (max-width: 760px){
+    header{
+        padding: 24px 16px 34px;
+    }
+
+    main{
+        padding: 14px;
+    }
+
+    .a-propos{
+        grid-template-columns: 1fr;
+    }
+
+    .cartes-specialites{
+        grid-template-columns: 1fr;
+    }
+
+    article,
+    .nos-valeur,
+    .contact,
+    .horaire,
+    .cafe,
+    .grignoter{
+        padding: 18px;
+    }
+
+    table{
+        font-size: 0.9rem;
+    }
+
+    th,
+    td{
+        padding: 8px;
+    }
+
+    .menu-item{
+        gap: 14px;
+    }
 }

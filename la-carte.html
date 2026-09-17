@@ -3,76 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo-icon.svg" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-    <title>La-carte</title>
+    <title>La carte - Ambre Café</title>
 </head>
 <body>
     <header>
-        <a href="index.html"><img src="img/logo-wordmark.svg" alt="Logo ambre café" title="retour à l'accueil"></a>
+        <a href="index.html"><img src="img/logo-wordmark.svg" alt="Logo Ambre Café" title="Retour à l'accueil"></a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="index.html#specialites">Spécialités</a></li>
+                <li><a href="la-carte.html">La carte</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
         <h1>La carte</h1>
     </header>
 
-    <div class="cafe">
+    <main class="page-carte">
+    <section class="cafe">
         <h2>Café</h2>
-         <table>
-       <thead>
-        <th>Boisson</th>
-        <th>Description</th>
-        <th>Prix</th>
-       </thead>
-       <tbody>
-        <td>Espresso</td>
-        <td>Notre mélange signature, torréfié chaque semaine</td>
-        <td>2,80 €</td>
-        <tr>
-            <td>Cappuccino</td>
-            <td>Espresso, lait vapeur, mousse veloutée</td>
-            <td>4,20 €</td>
-        </tr>
-       <tr>
-            <td>Filtre du jour</td>
-            <td>rigine unique en rotation, infusion douce</td>
-            <td>4,00 €</td>
-        </tr>
-        <tr>
-            <td>Latte noisette</td>
-            <td>Espresso, lait, sirop de noisette maison</td>
-            <td>4,80 €</td>
-        </tr>
-        <tr>
-            <td>Cold brew</td>
-            <td>Infusion à froid 16h, servie sur glace</td>
-            <td>4,50 €</td>
-        </tr>
-       </tbody>
-    </table>
-    </div>
-    <div class="grignoter">
-            <h2>À grignoter</h2>
-    
-    <table>
-       <thead>
-        <th>Produit</th>
-        <th>Description</th>
-        <th>Prix</th>
-       </thead>
-       <tbody>
-            <td>Croissant pur beurre</td>
-            <td>Cuit chaque matin par notre boulanger partenaire</td>
-            <td>2,20 €</td>
-        <tr>
-            <td>Banana bread maison</td>
-            <td>Recette de la maison, moelleux et peu sucré</td>
-            <td>3,50 €</td>
-        </tr>
-       <tr>
-            <td>Cookie tahin-chocolat</td>
-            <td>Pâte de sésame, pépites de chocolat noir</td>
-            <td>3,00 €</td>
-        </tr>
-       </tbody>
-    </table>
-    </div>
+        <article class="menu-item">
+            <div>
+                <h3>Espresso</h3>
+                <p>Notre mélange signature, torréfié chaque semaine</p>
+            </div>
+            <strong>2,80 €</strong>
+        </article>
+        <article class="menu-item">
+            <div>
+                <h3>Cappuccino</h3>
+                <p>Espresso, lait vapeur, mousse veloutée</p>
+            </div>
+            <strong>4,20 €</strong>
+        </article>
+        <article class="menu-item">
+            <div>
+                <h3>Filtre du jour</h3>
+                <p>Origine unique en rotation, infusion douce</p>
+            </div>
+            <strong>4,00 €</strong>
+        </article>
+        <article class="menu-item">
+            <div>
+                <h3>Latte noisette</h3>
+                <p>Espresso, lait, sirop de noisette maison</p>
+            </div>
+            <strong>4,80 €</strong>
+        </article>
+        <article class="menu-item">
+            <div>
+                <h3>Cold brew</h3>
+                <p>Infusion à froid 16h, servie sur glace</p>
+            </div>
+            <strong>4,50 €</strong>
+        </article>
+    </section>
 
+    <section class="grignoter">
+        <h2>À grignoter</h2>
+        <article class="menu-item">
+            <div>
+                <h3>Croissant pur beurre</h3>
+                <p>Cuit chaque matin par notre boulanger partenaire</p>
+            </div>
+            <strong>2,20 €</strong>
+        </article>
+        <article class="menu-item">
+            <div>
+                <h3>Banana bread maison</h3>
+                <p>Recette de la maison, moelleux et peu sucré</p>
+            </div>
+            <strong>3,50 €</strong>
+        </article>
+        <article class="menu-item">
+            <div>
+                <h3>Cookie tahin-chocolat</h3>
+                <p>Pâte de sésame, pépites de chocolat noir</p>
+            </div>
+            <strong>3,00 €</strong>
+        </article>
+    </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Ambre Café — Tous droits réservés</p>
+    </footer>
 </body>
 </html>

@@ -5,50 +5,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/logo-icon.svg" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-    <title>Ambre-café</title>
-
+    <title>Ambre Café</title>
 </head>
 <body>
-    <!-- entete -->
-     <header>
-        <!-- image logo nom -->
-         <img src="./img/logo-wordmark.svg" alt=" Logo ambre café">
-        <!-- slogan -->
-         <section>
-            <h1> <i>« Chaque tasse a une histoire. »</i> </h1>
-            <h2>Torréfacteur artisanal & café de spécialité</h2>
-            <h2>Torréfaction artisanale, cafés d'origine unique et pâtisseries maison, au cœur de Paris depuis 2019. </h2>
+    <header>
+        <img src="./img/logo-wordmark.svg" alt="Logo Ambre Café">
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="#specialites">Spécialités</a></li>
+                <li><a href="la-carte.html">La carte</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <section class="hero">
+            <p class="slogan"><i>« Chaque tasse a une histoire. »</i></p>
+            <p class="accroche">Torréfacteur artisanal & café de spécialité</p>
+            <p>Torréfaction artisanale, cafés d'origine unique et pâtisseries maison, au cœur de Paris depuis 2019.</p>
             <div class="button">
                 <a href="la-carte.html">Découvrir la carte</a>
             </div>
-         </section>
-     </header>
+        </section>
+    </header>
     <main>
-        
-        <!-- presentation conscept -->
         <div class="a-propos">
             <article>
-                 <!-- a propos -->
                 <h2><u>À propos</u></h2>
-                <p>Ambre Café est une petite torréfaction de quartier à Paris qui sélectionne des cafés d'origine unique, les torréfie en petites quantités, et sert le tout dans un espace chaleureux pensé pour travailler, discuter ou simplement s'arrêter cinq minutes.
-
-                    <br> <br>C'est un bon choix de projet parce que la structure est simple et classique pour un premier site : accueil, à propos, menu, galerie, contact — tout en offrant plein de belles photos disponibles gratuitement (café, viennoiseries, intérieur cosy).
+                <p>
+                    Ambre Café est une petite torréfaction de quartier à Paris qui sélectionne des cafés d'origine unique,
+                    les torréfie en petites quantités, et sert le tout dans un espace chaleureux pensé pour travailler,
+                    discuter ou simplement s'arrêter cinq minutes.
                 </p>
             </article>
-            <hr>
             <article>
-               
-                <!-- troixieme titre -->
                 <h2><u>Notre histoire</u></h2>
-                <!-- paragraphe de l'histoire -->
-                <p>Ambre Café est né en 2019 d'une envie simple : servir un café qui a du sens, du grain à la tasse. Nous travaillons directement avec des producteurs au Kenya, en Colombie et en Éthiopie, nous torréfions nous-mêmes en petites quantités chaque semaine, et nous formons nos baristas pendant plusieurs mois avant qu'ils ne passent derrière la machine.
-
+                <p>
+                    Ambre Café est né en 2019 d'une envie simple : servir un café qui a du sens, du grain à la tasse.
+                    Nous travaillons directement avec des producteurs au Kenya, en Colombie et en Éthiopie, nous torréfions
+                    nous-mêmes en petites quantités chaque semaine, et nous formons nos baristas pendant plusieurs mois
+                    avant qu'ils ne passent derrière la machine.
+                    <br><br>
                     Ici, pas de grande chaîne, pas de recette secrète industrielle : juste des gens qui aiment le café bien fait et un lieu où on a envie de rester.
                 </p>
             </article>
         </div>  
-        <hr>
-         <!-- presentation des valeur -->
+      <section class="specialites" id="specialites">
+        <h2><u>Nos spécialités</u></h2>
+        <div class="cartes-specialites">
+            <article>
+                <img src="https://images.unsplash.com/photo-1541167760496-1628856ab772?w=800&q=80&auto=format&fit=crop" alt="Latte art servi chez Ambre Café">
+                <h3>Latte artisanal</h3>
+                <p>Un espresso équilibré, une mousse veloutée et un latte art préparé à la main.</p>
+            </article>
+            <article>
+                <img src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?w=800&q=80&auto=format&fit=crop" alt="Grains de café fraîchement torréfiés">
+                <h3>Cafés d'origine</h3>
+                <p>Des grains sélectionnés avec soin, torréfiés en petites quantités chaque semaine.</p>
+            </article>
+            <article>
+                <img src="https://images.unsplash.com/photo-1597528662465-55ece5734101?w=800&q=80&auto=format&fit=crop" alt="Viennoiseries maison">
+                <h3>Pâtisseries maison</h3>
+                <p>Des douceurs simples et gourmandes pour accompagner chaque moment café.</p>
+            </article>
+        </div>
+      </section>
       <div class="nos-valeur">
         <h2><u>Nos valeurs</u></h2>
         <ul>
@@ -58,35 +78,26 @@
             <li><strong>Communauté</strong> — Nous accueillons les habitués, les étudiants qui révisent et les rendez-vous d'affaires avec la même attention.</li>
         </ul>
       </div>
-      <div class="contact">
+      <div class="contact" id="contact">
         <h2><u>Contact</u></h2>
         <p><strong>Adresse:</strong> 12 rue des Artisans, 75011 Paris</p>
         <p><strong>Téléphone:</strong> <a href="tel:+331 42 00 18 27">01 42 00 18 27</a></p>
         <p><strong>Email:</strong> <a href="mailto:contact@ambre-cafe.fr">contact@ambre-cafe.fr</a></p>
       </div>
       <div class="horaire">
-        <h2><u>Horaire</u></h2>
+        <h2><u>Horaires</u></h2>
         <p>
-       <strong> Lundi – Vendredi :</strong> 8h00 – 18h00 <br>
+       <strong>Lundi – Vendredi :</strong> 8h00 – 18h00 <br>
         <strong>Samedi :</strong> 9h00 – 18h00 <br>
         <strong>Dimanche :</strong> Fermé 
     </p>
       </div>
-      <div>
-        <a href="http://www.instagrame.com" target="_blank" rel="noopener noreferrer"></a>
-      </div>
       <div class="reseaux-sociaux">
-        <a href="http://www.instagrame.com" target="_blank" rel="noopener noreferrer"><img src="img/img-lien/instagram-link-icon.svg" alt="Logo instagrame" width="100px"></a>
+        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"><img src="img/img-lien/instagram-link-icon.svg" alt="Logo Instagram" width="100px"></a>
       </div>
-
-   
-
-    <!---->
     </main>
     <footer>
-
+        <p>© 2026 Ambre Café — Tous droits réservés</p>
     </footer>
-     
-    
 </body>
 </html>
